@@ -9,8 +9,9 @@ import (
 
 var number1 int
 var err error
+var texto string
 
-func GetNumber() {
+func TablaMultiplicar() string {
 	scanner := bufio.NewScanner(os.Stdin)
 
 	for {
@@ -26,7 +27,9 @@ func GetNumber() {
 	}
 
 	for i := 1; i <= 10; i++ {
-		fmt.Printf("%d x %d = %d \n", number1, i, i*number1)
+		texto += fmt.Sprintf("%d x %d = %d \n", number1, i, i*number1)
 	}
+
+	return texto
 
 }

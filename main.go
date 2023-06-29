@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/rrq/golang/ejercicios"
+	"github.com/rrq/golang/funciones"
 )
 
 func main() {
@@ -30,5 +30,8 @@ func main() {
 
 	// teclado.IngresaNumeros()
 	// iteraciones.Iterar()
-	ejercicios.GetNumber()
+	// fmt.Println(ejercicios.TablaMultiplicar())
+	// files.SumaTabla()
+	// files.LeoArchivo()
+	funciones.Calculos()
 }
