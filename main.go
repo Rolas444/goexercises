@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/rrq/golang/funciones"
+	"github.com/rrq/golang/mapas"
 )
 
 func main() {
@@ -33,5 +33,10 @@ func main() {
 	// fmt.Println(ejercicios.TablaMultiplicar())
 	// files.SumaTabla()
 	// files.LeoArchivo()
-	funciones.Calculos()
+	// funciones.Calculos()
+	// funciones.LLamarClosure()
+	// funciones.Exponencia(3)
+	// arreglosslices.MuestroArreglos()
+	// arreglosslices.Capacidad()
+	mapas.MostrarMapas()
 }
