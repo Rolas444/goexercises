@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/rrq/golang/mapas"
+	"github.com/rrq/golang/defer_panic"
 )
 
 func main() {
@@ -38,5 +38,14 @@ func main() {
 	// funciones.Exponencia(3)
 	// arreglosslices.MuestroArreglos()
 	// arreglosslices.Capacidad()
-	mapas.MostrarMapas()
+	// mapas.MostrarMapas()
+	// users.AltaUsuario()
+	// Pedro := new(modelos.Hombre)
+	// ejerinterfaces.HumanosRespirando(Pedro)
+
+	// Maria := new(modelos.Mujer)
+	// ejerinterfaces.HumanosRespirando(Maria)
+	// defer_panic.VemosDefer()
+	defer_panic.EjemploPanico()
+
 }
