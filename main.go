@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/rrq/golang/defer_panic"
-)
+import "github.com/rrq/golang/middleware"
 
 func main() {
 	// estado, texto := variables.ConviertoaTexto(155)
@@ -46,6 +44,18 @@ func main() {
 	// Maria := new(modelos.Mujer)
 	// ejerinterfaces.HumanosRespirando(Maria)
 	// defer_panic.VemosDefer()
-	defer_panic.EjemploPanico()
+	// defer_panic.EjemploPanico()
+	// canal1 := make(chan bool)
+	// go gorutines.MiNombreLento("Rolando Ramirez", canal1)
+
+	// defer func() {
+	// 	<-canal1
+	// }()
+	// fmt.Println("Estoy aqui")
+	// var x string
+	// fmt.Scanln(&x)
+
+	// webserver.MiWebserver()
+	middleware.MiMiddelware()
 
 }
